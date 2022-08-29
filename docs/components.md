@@ -5,7 +5,13 @@ It serves as same javascript function but work in isolation with HTML elements.
 
 ![react-component](https://github.com/arsibux/react-app/blob/main/docs/img/components.jpg "react-component")
 
+## Document Object Model
+
+The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents.
+It defines the logical structure of documents and the way a document is accessed and manipulated.
+
 ![dom]( "dom")
+
 
 ## Types of Components
 
