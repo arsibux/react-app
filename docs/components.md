@@ -3,7 +3,7 @@ React component is an independent and reusable bits of code (function) that retr
 React element is **"DOM->Document Object Model"** object of an element.
 It serves as same javascript function but work in isolation with HTML elements.
 
-![react-component]( "react-component")
+![react-component](https://github.com/arsibux/react-app/blob/main/docs/img/components.jpg "react-component")
 
 ![dom]( "dom")
 
