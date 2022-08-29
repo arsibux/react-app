@@ -12,8 +12,6 @@ It is efficient and fexible javaScript JS Library.
   6. [Router](https://github.com/arsibux/react-app/blob/main/docs/router.md)
   7. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md)
 
-Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React
-
 ## Installation
 
   1. Run `npx create-react-app project-react`
