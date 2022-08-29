@@ -19,7 +19,8 @@ It is efficient and fexible javaScript JS Library.
 
 ## Resources
 
-  1. [JSX in React](https://www.w3schools.com/react/react_jsx.asp).
+  1. [React](https://reactjs.org/docs/getting-started.html)
+  2. [JSX in React](https://www.w3schools.com/react/react_jsx.asp).
 
 ## Change Log
 

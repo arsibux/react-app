@@ -18,8 +18,26 @@ It defines the logical structure of documents and the way a document is accessed
 
 
 ### Function Component
+A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX).
+
+```
+const train=()=> {
+  return <h2>Hi, I am also a Car!</h2>;
+}
+```
 
 ### Class Component
+A class component requires you to extend from React. Component and create a render function which returns a React element.
+There is no render method used in functional components.
+
+
+```
+class Train extends React.Component {
+  render() {
+    return <h2>Hi, I am a Car!</h2>;
+  }
+}
+```
 
 ### Statefull Component
 
