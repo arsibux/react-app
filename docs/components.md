@@ -10,14 +10,21 @@ It serves as same javascript function but work in isolation with HTML elements.
 The Document Object Model (DOM) is an application programming interface (API) for HTML and XML documents.
 It defines the logical structure of documents and the way a document is accessed and manipulated.
 
-![dom](https://github.com/arsibux/react-app/blob/main/docs/img/dom.jpg "dom")
+<!-- ![dom](https://github.com/arsibux/react-app/blob/main/docs/img/dom.jpg "dom") -->
 
 
 ## Types of Components
 
-  1. Functional Component
-  2. Classes Component.
+  1. Function Component
+  2. Classes Component
+  3. Statefull Component
+  4. Stateless Component
 
-### Functional Component
 
-### Functional Component
+### Function Component
+
+### Class Component
+
+### Statefull Component
+
+### Stateless Component
