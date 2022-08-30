@@ -6,10 +6,10 @@ It is efficient and fexible javaScript JS Library.
 
   1. [JSX](https://github.com/arsibux/react-app/blob/main/docs/jsx.md)
   2. [Components](https://github.com/arsibux/react-app/blob/main/docs/components.md)
-  3. [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md)
-  4. [Events](https://github.com/arsibux/react-app/blob/main/docs/events.md)
-  5. [Router](https://github.com/arsibux/react-app/blob/main/docs/router.md)
-  6. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md)
+  3. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md)
+  4. [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md)
+  5. [Events](https://github.com/arsibux/react-app/blob/main/docs/events.md)
+  6. [Router](https://github.com/arsibux/react-app/blob/main/docs/router.md)
 
 ## Installation
 
