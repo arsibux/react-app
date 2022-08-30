@@ -17,6 +17,16 @@ It is efficient and fexible javaScript JS Library.
   1. Run `npx create-react-app project-react`
   2.
 
+## Toolkit
+
+  - [Chrome dev tools for react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+  - [Firefox dev tools for react](https://addons.mozilla.org/en-GB/firefox/addon/react-devtools/)
+  - [VScode](https://code.visualstudio.com/download)
+  - [Code sandbox for react](https://codesandbox.io/s/new?utm_source=dotnew)
+  - [Codepen](https://codepen.io/)
+  - [Glitch](https://glitch.com/)
+  - [Bibel JS](https://babeljs.io/repl/)
+
 ## Resources
 
   1. [React](https://reactjs.org/docs/getting-started.html)

@@ -13,9 +13,6 @@ It defines the logical structure of documents and the way a document is accessed
 
   1. Function Component
   2. Classes Component
-  3. Statefull Component
-  4. Stateless Component
-
 
 ### Function Component
 A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX).
@@ -67,6 +64,7 @@ class Main extends Component {
 ```
 
 Stateless/Presentational/Dumb component:
+
 ```
 const BooksList = ({books}) => {
  return (
@@ -78,4 +76,5 @@ const BooksList = ({books}) => {
  )
 }
 ```
+
 Notice the stateless component is written as a function. As cool as state is, you should always aim to make your components as simple and stateless as possible, so different components can be reused like Lego pieces, even if you don’t have immediate plans to reuse a component. The stateful ones should feel lucky to be so
