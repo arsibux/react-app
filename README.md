@@ -36,4 +36,7 @@ It is efficient and fexible javaScript JS Library.
 ## Change Log
 
 - 2020-08-29
-  -Installation of react-application via npx
+  - Installation of react-application via npx
+  - Documentatio with images
+- 2020-08-31
+  - Components, routes and hook documentation.
