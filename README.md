@@ -4,28 +4,30 @@ Javascript library used to build **Single Page Application (SPA)** UIs with reus
 It also know as frontend JavaScript framework and toolkit to make declarative smalll pieces of code called components.
 It is efficient and fexible javaScript JS Library.
 
-  1. [JSX](https://github.com/arsibux/react-app/blob/main/docs/jsx.md): JXS in react to translate tags into react elements.
+  1. [JSX](https://github.com/arsibux/react-app/blob/main/docs/jsx.md): Translate tags into react elements.
   2. [Components](https://github.com/arsibux/react-app/blob/main/docs/components.md): Small piece of code having UI and its states and related function.
-  3. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md):
-  4. [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md)
-  5. [Events](https://github.com/arsibux/react-app/blob/main/docs/events.md)
-  6. [Router](https://github.com/arsibux/react-app/blob/main/docs/router.md)
+  3. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md): Perform intercepting such call messages or events.
+  4. [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md): Arguments passed into React components.
+  5. [Events](https://github.com/arsibux/react-app/blob/main/docs/events.md): Action or occurrence that can be identified by a program and has significance for system hardware or software.
+  6. [Router](https://github.com/arsibux/react-app/blob/main/docs/router.md): HTTP requests are routed to the code that handles them.
 
 ## Installation
 
-  1. Run `npx create-react-app project-react`
-  2.
+  1. Install [NodeJS](https://nodejs.org/en/download/) at you local.
+  2. Run `npx create-react-app project-react`
+  3. Run `cd project-react` and `npm start`
 
 ## Toolkit
 
-  - [Chrome dev tools for react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-  - [Firefox dev tools for react](https://addons.mozilla.org/en-GB/firefox/addon/react-devtools/)
-  - [VScode](https://code.visualstudio.com/download)
+  - [Chrome dev tools for react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) development tool to inspect react components.
+  - [Firefox dev tools for react](https://addons.mozilla.org/en-GB/firefox/addon/react-devtools/) development tool to inspect react components.
+  - [VScode](https://code.visualstudio.com/download) Code editor
   - [Code sandbox for react](https://codesandbox.io/s/new?utm_source=dotnew) provide plateform for react developmentand testing.
   - [Codepen](https://codepen.io/) provide plateform for coding and testing.
   - [Glitch](https://glitch.com/) provide plateform for coding and testing.
   - [Bibel JS](https://babeljs.io/repl/) convert html tags to javascript elements object.
   - [Jest Js](https://jestjs.io) provide matcher.
+  - [Netlify](https://www.netlify.com/) Build, deployment application. (custom domain, https support.)
 
 ## Resources
 
@@ -37,6 +39,6 @@ It is efficient and fexible javaScript JS Library.
 
 - 2020-08-29
   - Installation of react-application via npx
-  - Documentatio with images
+  - Documentation with images
 - 2020-08-31
   - Components, routes and hook documentation.
