@@ -1,4 +1,4 @@
-# React Overview
+# React Overview (reactive to every change)
 
 Javascript library used to build **Single Page Application (SPA)** UIs with reuseable components.
 It also know as frontend JavaScript framework and toolkit to make declarative smalll pieces of code called components.
@@ -12,12 +12,10 @@ It is efficient and fexible javaScript JS Library.
   6. [Events](https://github.com/arsibux/react-app/blob/main/docs/events.md): Action or occurrence that can be identified by a program and has significance for system hardware or software.
   7. [React Router](https://github.com/arsibux/react-app/blob/main/docs/router.md): HTTP requests are routed to the code that handles them.
 
-## Installation
-
+<!-- ## Installation
   1. Install [NodeJS](https://nodejs.org/en/download/) at you local.
   2. Run `npx create-react-app project-react`
-  3. Run `cd project-react` and `npm start`
-
+  3. Run `cd project-react` and `npm start` -->
 ## Toolkit
 
   - [Chrome dev tools for react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) development tool to inspect react components.
