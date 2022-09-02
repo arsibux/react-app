@@ -18,5 +18,4 @@ const [name, age, height]= student;
 
 <Component name={name} age={age} height={height} /> // using destructuring
 
-
 ```
