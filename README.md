@@ -6,8 +6,8 @@ It is efficient and fexible javaScript JS Library.
 
   1. [JSX](https://github.com/arsibux/react-app/blob/main/docs/jsx.md): Translate tags into react elements.
   2. [Components](https://github.com/arsibux/react-app/blob/main/docs/components.md): Small piece of code having UI and its states and related function.
-  3. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md): Perform intercepting such call messages or events.
   4. [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md): Arguments passed into React components.
+  3. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md): Perform intercepting such call messages or events.
   5. [Events](https://github.com/arsibux/react-app/blob/main/docs/events.md): Action or occurrence that can be identified by a program and has significance for system hardware or software.
   6. [Router](https://github.com/arsibux/react-app/blob/main/docs/router.md): HTTP requests are routed to the code that handles them.
 
@@ -42,3 +42,5 @@ It is efficient and fexible javaScript JS Library.
   - Documentation with images
 - 2020-08-31
   - Components, routes and hook documentation.
+- 2020-09-02
+  - Props, hooks and events documentation.
