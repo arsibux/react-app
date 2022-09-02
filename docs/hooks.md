@@ -1,4 +1,4 @@
-# Hook in React
+# Hooks in React
 
 Code(function) that is used to perform intercepting such call messages or events is called a hook.
 Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes.
@@ -42,13 +42,13 @@ In this hook a function is triggered when state of variable changes. It consists
 ```
 function Counter(){
    const [count, setCount] = useState(0);
-   const [add, setAdd] = useState(0);
+   const [cal, setCal] = useState(0);
 
    useEffect(()=>{
-    setAdd(()=>{
+    // function dependent on count value update as state changes this function will triggered.
+    setCal(()=>{
         count*2;
     })
-
    }, count);
 
    return (
