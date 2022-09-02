@@ -8,7 +8,8 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   - useEffect
   - useReducer
   - useRef
-  - useContect
+  - useContext
+  - useDispatch
 
 ## useState
 
