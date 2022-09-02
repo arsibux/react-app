@@ -8,11 +8,11 @@
   function Student(props){
     return (
       <>
-      <div className="student-profile-container">
-        <div className="name">{prop.name}</div>
-        <div className="name">{prop.age}</div>
-        <div className="name">{prop.height}</div>
-      </div>
+        <div className="student-profile-container">
+          <div className="name">{prop.name}</div>
+          <div className="name">{prop.age}</div>
+          <div className="name">{prop.height}</div>
+        </div>
       </>
     );
   }
