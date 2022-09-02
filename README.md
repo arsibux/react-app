@@ -5,11 +5,12 @@ It also know as frontend JavaScript framework and toolkit to make declarative sm
 It is efficient and fexible javaScript JS Library.
 
   1. [JSX](https://github.com/arsibux/react-app/blob/main/docs/jsx.md): Translate tags into react elements.
-  2. [Components](https://github.com/arsibux/react-app/blob/main/docs/components.md): Small piece of code having UI and its states and related function.
-  4. [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md): Arguments passed into React components.
-  3. [Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md): Perform intercepting such call messages or events.
+  2. [React Components](https://github.com/arsibux/react-app/blob/main/docs/components.md): Small piece of code having UI and its states and related function.
+  3. [React Props](https://github.com/arsibux/react-app/blob/main/docs/props.md): Arguments passed into React components.
+  4. [React Hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md): Perform intercepting such call messages or events.
+  5. [Destructureing in React](https://github.com/arsibux/react-app/blob/main/docs/dest.md)
   5. [Events](https://github.com/arsibux/react-app/blob/main/docs/events.md): Action or occurrence that can be identified by a program and has significance for system hardware or software.
-  6. [Router](https://github.com/arsibux/react-app/blob/main/docs/router.md): HTTP requests are routed to the code that handles them.
+  6. [React Router](https://github.com/arsibux/react-app/blob/main/docs/router.md): HTTP requests are routed to the code that handles them.
 
 ## Installation
 
@@ -38,9 +39,9 @@ It is efficient and fexible javaScript JS Library.
 ## Change Log
 
 - 2020-08-29
-  - Installation of react-application via npx
-  - Documentation with images
+  - ADDED: Installation of react-application via npx
+  - ADDED: Documentation with images
 - 2020-08-31
-  - Components, routes and hook documentation.
+  - ADDED: Components, routes and hook documentation.
 - 2020-09-02
-  - Props, hooks and events documentation.
+  - ADDED: Props and hook documentation.
