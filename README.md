@@ -13,7 +13,7 @@ It is efficient and fexible javaScript JS Library.
   7. **Redux**
 
 ## What is JSX ?
----
+
 Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
 
 ![jsx](https://github.com/arsibux/react-app/blob/main/docs/img/jsx.jpg)
@@ -30,12 +30,12 @@ It serves as same javascript function but work in isolation with HTML elements.
 **"The Document Object Model (DOM)"** is an application programming interface (API) for HTML and XML documents.
 It defines the logical structure of documents and the way a document is accessed and manipulated.
 
-#### Types of Components
+### Types of Components
 
   1. Function Component
   2. Classes Component
 
-#### Function Component
+### Function Component
 A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX).
 There is no render method used in functional components.
 
@@ -45,10 +45,9 @@ const train=()=> {
 }
 ```
 
-#### Class Component
+### Class Component
 A class component requires you to extend from React. Component and create a render function which returns a React element.
 This is the bread and butter of most modern web apps built in ReactJS. These components are simple classes (made up of multiple functions that add functionality to the application).
-
 
 ```
 class Train extends React.Component {
@@ -58,7 +57,7 @@ class Train extends React.Component {
 }
 ```
 
-#### Stateful and Stateless Components
+### Stateful and Stateless Components
 
 Stateful and stateless components have many different names.
 
@@ -100,7 +99,7 @@ const BooksList = ({books}) => {
 
 Notice the stateless component is written as a function. As cool as state is, you should always aim to make your components as simple and stateless as possible, so different components can be reused like Lego pieces, even if you don’t have immediate plans to reuse a component. The stateful ones should feel lucky to be so
 
-### React props
+## React props
 
 Props stand for **"properties"**  immuteable or read only attributes of a components.
 It stores the values of attributes of a tag `<Components name="Ali"  age="25" hieght="5.8"/>`.
@@ -122,7 +121,7 @@ function Student(props){
 
 ```
 
-### Destructuring in React
+## Destructuring in React
 
 Make available only required individual item, element, or properties of an array or object.
 We may have an array or object that we are working with, but we only need some of the items contained in these.
@@ -144,43 +143,43 @@ const [name, age, height]= student;
 
 ```
 
-### React Hooks
+## React Hooks
 
-  Code(function) that is used to perform intercepting such call messages or events is called a hook.
-  Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes.
-  The purpose of hook to handle reactive data, any data that changes in the application.
+Code(function) that is used to perform intercepting such call messages or events is called a hook.
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes.
+The purpose of hook to handle reactive data, any data that changes in the application.
 
-    - useState
-    - useEffect
-    - useReducer
-    - useRef
-    - useContext
-    - useDispatch
+  - useState
+  - useEffect
+  - useReducer
+  - useRef
+  - useContext
+  - useDispatch
 
-  #### useState
+### useState
 
-    Provides reative values(states) with updater function that can change the value(state) of variable.
-    useState allows us to track state(data or value) in a function component.
+  Provides reative values(states) with updater function that can change the value(state) of variable.
+  useState allows us to track state(data or value) in a function component.
 
-    ```
-    function Name(){
+  ```
+  function Name(){
 
-      // Initial state or value of name variable is Ali;
-      // setName is function that helps to change the state of variable.
-      const [name , setName] = useState("Ali");
+    // Initial state or value of name variable is Ali;
+    // setName is function that helps to change the state of variable.
+    const [name , setName] = useState("Ali");
 
-      return (
-        <>
-          <span>{name}</span>
-          // updater function update the state of variable <name>.
-          <button type="button" onClick={setName('Amin')}>update name</button>
-        </>
-      );
+    return (
+      <>
+        <span>{name}</span>
+        // updater function update the state of variable <name>.
+        <button type="button" onClick={setName('Amin')}>update name</button>
+      </>
+    );
 
-    }
-    ```
+  }
+  ```
 
-  #### useEffect
+  ### useEffect
 
   In this hook a function is triggered when state of variable changes. It consists of two parts.
   **"useEffect(<function>, <dependency>)"** useEffect accepts two arguments. The second argument is optional.
