@@ -36,9 +36,11 @@ It is efficient and fexible javaScript JS Library.
 ## Change Log
 
 - 2020-08-29
-  - ADDED: Installation of react-application via npx
-  - ADDED: Documentation with images
+  - ADDED: Installation of react-application via npx.
+  - ADDED: Documentation with images.
 - 2020-08-31
-  - ADDED: Components, routes and hook documentation.
+  - ADDED: [Components](https://github.com/arsibux/react-app/blob/main/docs/components.md) documentation.
 - 2020-09-02
-  - ADDED: Props and hook documentation.
+  - ADDED: [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md), [destructuring](https://github.com/arsibux/react-app/blob/main/docs/dest.md) and [hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md) documentation.
+- 2020-09-03
+  - ADDED: [Types of hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md)
