@@ -4,12 +4,12 @@ Javascript library used to build **Single Page Application (SPA)** UIs with reus
 It also know as frontend JavaScript framework and toolkit to make declarative smalll pieces of code called components.
 It is efficient and fexible javaScript JS Library.
 
-  1. [What is JSX](https://github.com/arsibux/react-app/blob/main/docs/jsx.md): Translate tags into react elements.
-  2. **React Components** Small piece of code having UI and its states and related function.
-  3. **React Props** Arguments passed into React components.
-  4. **Destructuring in React** Destructuring makes it easy to extract only what is needed in array or in object.
-  5. **React Hooks** Perform intercepting such call messages or events.
-  6. **React Router** HTTP requests are routed to the code that handles them.
+  1. **What is JSX**: Translate tags into react elements.
+  2. **React Components**: Small piece of code having UI and its states and related function.
+  3. **React Props**: Arguments passed into React components.
+  4. **Destructuring in React**: Destructuring makes it easy to extract only what is needed in array or in object.
+  5. **React Hooks**: Perform intercepting such call messages or events.
+  6. **React Router**: HTTP requests are routed to the code that handles them.
   7. **Redux**
 
 ### What is JSX ?
