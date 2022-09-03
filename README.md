@@ -204,8 +204,46 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   }
 
   ```
+  ### useContext
 
-### React Router
+  Make the state available globally. It accepts the context object of application and
+  add the state to context object and make available it globally.
+
+  ```
+
+  import { useState, createContext, useContext } from "react";
+  import ReactDOM from "react-dom/client";
+
+  const UserContext =  createContext(UserContext);
+
+  // Now adding state to context object in one component.
+  function  Com1(){
+    const [user, setUser] = useState('Ali');
+    return(
+        // making user state available  globally.
+        <UserContext.Provider value={user}>
+        <h1>Hello, {user}</h1>
+        </UserContext.Provider>
+    );
+  }
+
+  // Getting the value of user cross Components
+  function Com2(){
+    const user = useContext(UserContext);
+      return(
+        <>
+          <h2>Hi, {user}</h2>
+        </>
+      );
+  }
+
+
+  ```
+  ### useReducer
+
+## React Router
+
+## Redux
 
 ## Toolkit
 
