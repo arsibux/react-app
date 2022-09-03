@@ -1,5 +1,5 @@
 # React Overview (reactive to every change)
----
+
 Javascript library used to build **Single Page Application (SPA)** UIs with reuseable components.
 It also know as frontend JavaScript framework and toolkit to make declarative smalll pieces of code called components.
 It is efficient and fexible javaScript JS Library.
@@ -12,13 +12,13 @@ It is efficient and fexible javaScript JS Library.
   6. **React Router**: HTTP requests are routed to the code that handles them.
   7. **Redux**
 
-### What is JSX ?
-
+## What is JSX ?
+---
 Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
 
 ![jsx](https://github.com/arsibux/react-app/blob/main/docs/img/jsx.jpg)
 
-### React Components
+## React Components
 
 React component is an independent and reusable bits of code (function) that retrun the react elements (UI).
 React element is **"DOM->Document Object Model"** object of an element.
