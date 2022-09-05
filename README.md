@@ -6,12 +6,13 @@ It is efficient and fexible javaScript JS Library.
 It creates **Virtual Document Object Model** in memory and all manipulation of data occurs in virtual DOM before the browser DOM.
 
   1. **What is JSX**: Translate tags into react elements.
-  2. **React Components**: Small piece of code having UI and its states and related function.
-  3. **React Props**: Arguments passed into React components.
-  4. **Destructuring in React**: Destructuring makes it easy to extract only what is needed in array or in object.
-  5. **React Hooks**: Perform intercepting such call messages or events.
-  6. **React Router**: HTTP requests are routed to the code that handles them.
-  7. **Redux**
+  2. **State**: Data that may change in application.
+  3. **React Components**: Small piece of code having UI and its states and related function.
+  4. **React Props**: Arguments passed into React components.
+  5. **Destructuring in React**: Destructuring makes it easy to extract only what is needed in array or in object.
+  6. **React Hooks**: Perform intercepting such call messages or events.
+  7. **React Router**: HTTP requests are routed to the code that handles them.
+  8. **Redux**: State management library.
 
 ## What is JSX ?
 
@@ -19,9 +20,10 @@ Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it ea
 
 ![jsx](https://github.com/arsibux/react-app/blob/main/docs/img/jsx.jpg)
 
-## State
+## State Management
 
-**"State"**: State is data that may change in applicatiion. React manages the data(State) bby following ways.
+**"State"**: State is data that may change in applicatiion. State is data storage to the component only.
+React manages the data(State) by following ways.
 
   1. URLs
   2. Web Storage  (persist data [cookies, localStorage, indexedDB])
@@ -29,9 +31,8 @@ Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it ea
   4. Lifted State (FormData, Toggles, LocalLists)
   5. Derived State (derived from existing state)
   6. Refs (DOM References)
-  7. Context (Loggedin user, Authorizations Settings, theming, Internationalization Settings)
+  7. Context (Loggedin user, Authorizations Settings, Theming, Internationalization Settings)
   8. Third Party Lib (Redux, Mobx, Recoil) remote state (reac-query, Swr, Relay, Appolo)
-
 
 ## React Components
 
@@ -116,7 +117,7 @@ Notice the stateless component is written as a function. As cool as state is, yo
 
 ## React props
 
-Props stand for **"properties"**  immuteable or read only attributes of a components.
+Props stand for **"properties"**  immuteable or read only attributes(arguments) of a components.
 It stores the values of attributes of a tag `<Components name="Ali"  age="25" hieght="5.8"/>`.
 
 ![component props](https://github.com/arsibux/react-app-overview/blob/main/docs/img/props.jpg "component props")
@@ -251,6 +252,8 @@ The purpose of hook to handle reactive data, any data that changes in the applic
 
 ## React Router
 
+ReactJS Router is seperate JS library for navigation among the pages and views of the components in react application.
+Router keeps UI (components) sync to URLs and used to creating routing the react application.
 ## Redux
 
 ## Toolkit
@@ -282,3 +285,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   - ADDED: [Props](https://github.com/arsibux/react-app/blob/main/docs/props.md), [destructuring](https://github.com/arsibux/react-app/blob/main/docs/dest.md) and [hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md) documentation.
 - 2020-09-03
   - ADDED: [Types of hooks](https://github.com/arsibux/react-app/blob/main/docs/hooks.md)
+  - ADDED: State Management
+- 2020-09-05
+  - ADDED: Router
+  - ADDED: Redux
