@@ -270,6 +270,7 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
 |  5   | SPA | Single Page Application. |
 |  6   | Compiler | Takes the JS code and transform into different formats. Babel is the most commonly used compiler in react. |
 |  7   |
+
 ## Toolkit
 
   - [Chrome dev tools for react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) development tool to inspect react components.
