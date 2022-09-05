@@ -259,6 +259,12 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
 
 ## Redux
 
+## React Terms
+
+|  Sr  |     Title     | Description                                           |
+| :-:  | :-----------: | :---------------------------------------------------: |
+|  1   | 301   | 283   |
+
 ## Toolkit
 
   - [Chrome dev tools for react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) development tool to inspect react components.
