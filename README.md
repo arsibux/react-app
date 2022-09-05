@@ -19,6 +19,20 @@ Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it ea
 
 ![jsx](https://github.com/arsibux/react-app/blob/main/docs/img/jsx.jpg)
 
+## State
+
+**"State"**: State is data that may change in applicatiion. React manages the data(State) bby following ways.
+
+  1. URLs
+  2. Web Storage  (persist data [cookies, localStorage, indexedDB])
+  3. Local Storage (locate state in components)
+  4. Lifted State (FormData, Toggles, LocalLists)
+  5. Derived State (derived from existing state)
+  6. Refs (DOM References)
+  7. Context (Loggedin user, Authorizations Settings, theming, Internationalization Settings)
+  8. Third Party Lib (Redux, Mobx, Recoil) remote state (reac-query, Swr, Relay, Appolo)
+
+
 ## React Components
 
 React component is an independent and reusable bits of code (function) that retrun the react elements (UI).
