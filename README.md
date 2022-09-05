@@ -254,6 +254,9 @@ The purpose of hook to handle reactive data, any data that changes in the applic
 
 ReactJS Router is seperate JS library for navigation among the pages and views of the components in react application.
 Router keeps UI (components) sync to URLs and used to creating routing the react application.
+
+![router](https://github.com/arsibux/react-app-overview/blob/main/docs/img/router.jpg "router")
+
 ## Redux
 
 ## Toolkit
