@@ -262,7 +262,7 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
 ## React Terms
 
 |  Sr  |     Title     | Description                                           |
-| :-:  | :-----------: | :---------------------------------------------------: |
+| :-:  | :-----------: | --------------------------------------------------- |
 |  1   | Node Js | Javascript open source server environment runs on various plateforms. |
 |  2   | npm | Node Package(dependency) Manager. |
 |  3   | npx | Node Package Execute(Runner) comes with npm. |
