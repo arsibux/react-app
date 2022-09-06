@@ -262,6 +262,8 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
 Javascript Library is used to managing the states (Data) of react application. State management pattern with the help of **Events** called **actions**.
 It provides shared state management, state can be accessed across the different components.
 
+![redux](https://github.com/arsibux/react-app-overview/blob/main/docs/img/redux.jpg "redux")
+
 ## React Terms
 
 |  Sr  |     Title     | Description                                           |
