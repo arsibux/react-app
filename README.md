@@ -259,6 +259,9 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
 
 ## Redux
 
+Javascript Library is used to managing the states (Data) of react application. State management pattern with the help of **Events** called **actions**.
+It provides shared state management, state can be accessed across the different components.
+
 ## React Terms
 
 |  Sr  |     Title     | Description                                           |
@@ -282,6 +285,9 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
   - [Bibel JS](https://babeljs.io/repl/) convert html tags to javascript elements object.
   - [Jest Js](https://jestjs.io) provide matcher.
   - [Netlify](https://www.netlify.com/) Build, deployment application. (custom domain, https support.)
+  - [What is Redux](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+  - [Redux DevTools for chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+  - [Redux DevTools for firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
 
 ## Resources
 
@@ -303,4 +309,4 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
   - ADDED: State Management
 - 2020-09-05
   - ADDED: Router
-  - ADDED: Redux
+  - ADDED: Redux and state management.
