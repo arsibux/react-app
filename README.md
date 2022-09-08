@@ -277,7 +277,7 @@ It provides shared state management, state can be accessed across the different 
 |  7   | Events | is an action that takes place when user interacts with program.
 |  8   | Action | is set instructions as a function that required to run.
 |  9   | Event Handler | is callback function run asynchronously once at certain event.
-|  10  | Callback Function |
+|  10  | Callback fn | function runs in sequence as first finished.
 
 ## Toolkit
 
