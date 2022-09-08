@@ -274,7 +274,10 @@ It provides shared state management, state can be accessed across the different 
 |  4   | yarn | Package Manager like npm. |
 |  5   | SPA | Single Page Application. |
 |  6   | Compiler | Takes the JS code and transform into different formats. Babel is the most commonly used compiler in react. |
-|  7   |
+|  7   | Events | is an action that takes place when user interacts with program.
+|  8   | Action | is set instructions as a function that required to run.
+|  9   | Event Handler | is callback function run asynchronously once at certain event.
+|  10  | Callback Function |
 
 ## Toolkit
 
