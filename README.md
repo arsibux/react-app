@@ -249,6 +249,77 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   }
   ```
   ### useReducer
+  useState with initial state and action. State will update accordingly action.
+
+  ```
+  function Student(){
+    const initialState = {
+      name: "Ali",
+      age: 25,
+      height: "5.8"
+    };
+
+    function reducer(state, action) {
+      switch (action.type) {
+        case "name":
+          return {
+            name: "Aslam",
+            height: "5.8",
+            age: 25
+          };
+        case "age":
+          return {
+            name: "Ali",
+            height: "5.8",
+            age: 35
+          };
+        case "height":
+          return {
+            name: "Ali",
+            height: "5.8",
+            age: 25
+          };
+        default:
+          return {};
+      }
+    }
+    const [student, dispatch] = useReducer(reducer, initialState);
+    return (
+      <>
+        <div className="student-profile-container">
+          <div className="name">{student.name}</div>
+          <div className="name">{student.age}</div>
+          <div className="name">{student.height}</div>
+        </div>
+        <button onClick={() => dispatch({ type: "name" })}>Name</button>
+        <button onClick={() => dispatch({ type: "age" })}>Age</button>
+        <button onClick={() => dispatch({ type: "height" })}>Height</button>
+      </>
+    );
+  }
+  ```
+  ### useRef
+  Hook which reach out to the components value.
+
+  ```
+  const sound = useRef();
+  const color = useRef();
+  const submit = (e) => {
+    e.preventDefault();
+    const soundVal = sound.current.value;
+    const colorVal = color.current.value;
+    alert(`${soundVal} sounds liek ${colorVal}`);
+  };
+  return (
+    <>
+      <form onSubmit={submit}>
+        <input ref={sound} type="text" />
+        <input ref={color} type="color" />
+        <button>add</button>
+      </form>
+    </>
+  );
+  ```
 
 ## React Router
 
