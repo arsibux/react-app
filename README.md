@@ -156,16 +156,22 @@ React manages the data(State) by following ways.
   8. Third Party Lib (Redux, Mobx, Recoil) remote state (reac-query, Swr, Relay, Appolo)
 
 ### Props Drilling
+
   Passing data through nest component and make available data(state) to child components.
+
   ![props drilling](https://github.com/arsibux/react-app-overview/blob/main/docs/img/drilling.jpg "drilling")
 
 ### Lifting State up
+
 Make available **STATE**(updated data) of child component to its ancestor components or any other component that needs the data.
+
 ![lifting up](https://github.com/arsibux/react-app-overview/blob/main/docs/img/liftingup.jpg "lifting")
 
 ### Global State
+
  Single centrilized shared and unrestricted globally accessible state for all application components.
  **Note**:On update state all components shares the same state.
+
  ![global](https://github.com/arsibux/react-app-overview/blob/main/docs/img/global.jpg "global")
 
 
@@ -185,6 +191,7 @@ Javascript Library is used to managing the states (Data) of react application. S
 It provides shared state management with restrictions and rules, state can be accessed across the different components.
 
 ![redux](https://github.com/arsibux/react-app-overview/blob/main/docs/img/redux.jpg "redux")
+
 **Redux Store**: Global Store with big JSON Data.It is **Data Store** for server or internal application DATA(State) that needs to be tracked.
 
 ![redux store](https://github.com/arsibux/react-app-overview/blob/main/docs/img/reduxstore.jpg "redux store")
