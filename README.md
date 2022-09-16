@@ -193,6 +193,7 @@ It provides shared state management with restrictions and rules, state can be ac
 ![redux](https://github.com/arsibux/react-app-overview/blob/main/docs/img/redux.jpg "redux")
 
 **Redux Store**: Global Store with big JSON Data.It is **Data Store** for server or internal application DATA(State) that needs to be tracked.
+**Data Accessiblity**:In redux store when reducer triggered an action it broadcasts the updated state to all components having action key. Redux Store only allows components to share the DATA(State) on specific action triggered in reducer of the component.
 
 ![redux store](https://github.com/arsibux/react-app-overview/blob/main/docs/img/reduxstore.jpg "redux store")
 
@@ -367,6 +368,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   );
 
   ```
+
 ## React Terms
 
 |  Sr  |     Title     | Description                                           |
@@ -381,7 +383,6 @@ The purpose of hook to handle reactive data, any data that changes in the applic
 |  8   | Action | is set instructions as a function that required to run.
 |  9   | Event Handler | is callback function run asynchronously once at certain event.
 |  10  | Callback fn | function runs in sequence as first finished.
-
 
 ## Toolkit
 
