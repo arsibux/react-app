@@ -164,7 +164,7 @@ Make available **STATE**(updated data) of child component to its ancestor compon
 ![lifting up](https://github.com/arsibux/react-app-overview/blob/main/docs/img/liftingup.jpg "lifting")
 
 ### Global State
- Shared, unrestricted globally accessible state for all application components.
+ Single centrilized shared and unrestricted globally accessible state for all application components.
  ![global](https://github.com/arsibux/react-app-overview/blob/main/docs/img/global.jpg "global")
 
 
@@ -368,9 +368,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
 |  8   | Action | is set instructions as a function that required to run.
 |  9   | Event Handler | is callback function run asynchronously once at certain event.
 |  10  | Callback fn | function runs in sequence as first finished.
-|  10  | ؑElement | .
-|  10  | Properties | .
-|  10  | Props | .
+
 
 ## Toolkit
 
