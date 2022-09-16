@@ -159,6 +159,33 @@ React manages the data(State) by following ways.
   Passing data through nest component and make available data(state) to child components.
   ![props drilling](https://github.com/arsibux/react-app-overview/blob/main/docs/img/drilling.jpg "drilling")
 
+### Lifting State up
+Make available **STATE**(updated data) of child component to its ancestor components or any other component that needs the data.
+![lifting up](https://github.com/arsibux/react-app-overview/blob/main/docs/img/liftingup.jpg "lifting")
+
+### Global State
+ Shared, unrestricted globally accessible state for all application components.
+ ![global](https://github.com/arsibux/react-app-overview/blob/main/docs/img/global.jpg "global")
+
+
+## React Ecosystem
+Javascript libraries that helps the react development.
+
+### React Router
+
+ReactJS Router is seperate JS library for navigation among the pages and views of the components in react application.
+Router keeps UI (components) sync to URLs and used to creating routing the react application.
+
+![router](https://github.com/arsibux/react-app-overview/blob/main/docs/img/router.jpg "router")
+
+### React Redux
+
+Javascript Library is used to managing the states (Data) of react application. State management pattern with the help of **Events** called **actions**.
+It provides shared state management, state can be accessed across the different components.
+
+![redux](https://github.com/arsibux/react-app-overview/blob/main/docs/img/redux.jpg "redux")
+
+
 ## React Hooks
 
 Code(function) that is used to perform intercepting such call messages or events is called a hook.
@@ -327,24 +354,6 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   );
 
   ```
-
-## React Ecosystem
-Javascript libraries that helps the react development.
-
-### React Router
-
-ReactJS Router is seperate JS library for navigation among the pages and views of the components in react application.
-Router keeps UI (components) sync to URLs and used to creating routing the react application.
-
-![router](https://github.com/arsibux/react-app-overview/blob/main/docs/img/router.jpg "router")
-
-### React Redux
-
-Javascript Library is used to managing the states (Data) of react application. State management pattern with the help of **Events** called **actions**.
-It provides shared state management, state can be accessed across the different components.
-
-![redux](https://github.com/arsibux/react-app-overview/blob/main/docs/img/redux.jpg "redux")
-
 ## React Terms
 
 |  Sr  |     Title     | Description                                           |
@@ -359,6 +368,9 @@ It provides shared state management, state can be accessed across the different 
 |  8   | Action | is set instructions as a function that required to run.
 |  9   | Event Handler | is callback function run asynchronously once at certain event.
 |  10  | Callback fn | function runs in sequence as first finished.
+|  10  | ؑElement | .
+|  10  | Properties | .
+|  10  | Props | .
 
 ## Toolkit
 
@@ -398,3 +410,4 @@ It provides shared state management, state can be accessed across the different 
   - ADDED: Redux and state management.
 - 2020-09-16
   - ADDED: Props Drilling
+  - ADDED: Lifting State up
