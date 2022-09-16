@@ -165,10 +165,11 @@ Make available **STATE**(updated data) of child component to its ancestor compon
 
 ### Global State
  Single centrilized shared and unrestricted globally accessible state for all application components.
+ **Note**:On update state all components shares the same state.
  ![global](https://github.com/arsibux/react-app-overview/blob/main/docs/img/global.jpg "global")
 
 
-## React Ecosystem
+## React Ecosystems
 Javascript libraries that helps the react development.
 
 ### React Router
@@ -181,10 +182,15 @@ Router keeps UI (components) sync to URLs and used to creating routing the react
 ### React Redux
 
 Javascript Library is used to managing the states (Data) of react application. State management pattern with the help of **Events** called **actions**.
-It provides shared state management, state can be accessed across the different components.
+It provides shared state management with restrictions and rules, state can be accessed across the different components.
 
 ![redux](https://github.com/arsibux/react-app-overview/blob/main/docs/img/redux.jpg "redux")
+**Redux Store**: Global Store with big JSON Data.It is **Data Store** for server or internal application DATA(State) that needs to be tracked.
 
+![redux store](https://github.com/arsibux/react-app-overview/blob/main/docs/img/reduxstore.jpg "redux store")
+
+#### Redux Actions
+#### Redux Reducers
 
 ## React Hooks
 
