@@ -418,7 +418,9 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   - ADDED: State Management
 - 2020-09-05
   - ADDED: Router
-  - ADDED: Redux and state management.
+  - ADDED: Redux and State Management.
 - 2020-09-16
   - ADDED: Props Drilling
   - ADDED: Lifting State up
+  - ADDED: Global state
+  - UPDATE: Redux and State Management.
