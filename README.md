@@ -20,20 +20,6 @@ Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it ea
 
 ![jsx](https://github.com/arsibux/react-app/blob/main/docs/img/jsx.jpg)
 
-## State Management
-
-**"State"**: State is data that may change in applicatiion. State is data storage to the component only.
-React manages the data(State) by following ways.
-
-  1. URLs
-  2. Web Storage  (persist data [cookies, localStorage, indexedDB])
-  3. Local Storage (locate state in components)
-  4. Lifted State (FormData, Toggles, LocalLists)
-  5. Derived State (derived from existing state)
-  6. Refs (DOM References)
-  7. Context (Loggedin user, Authorizations Settings, Theming, Internationalization Settings)
-  8. Third Party Lib (Redux, Mobx, Recoil) remote state (reac-query, Swr, Relay, Appolo)
-
 ## React Components
 
 React component is an independent and reusable bits of code (function) that retrun the react elements (UI).
@@ -155,6 +141,23 @@ const [name, age, height]= student;
 
 <Component name={name} age={age} height={height} /> // using destructuring
 ```
+## State Management
+
+**"State"**: State is data that may change in applicatiion. State is data storage to the component only.
+React manages the data(State) by following ways.
+
+  1. URLs
+  2. Web Storage  (persist data [cookies, localStorage, indexedDB])
+  3. Local Storage (locate state in components)
+  4. Lifted State (FormData, Toggles, LocalLists)
+  5. Derived State (derived from existing state)
+  6. Refs (DOM References)
+  7. Context (Loggedin user, Authorizations Settings, Theming, Internationalization Settings)
+  8. Third Party Lib (Redux, Mobx, Recoil) remote state (reac-query, Swr, Relay, Appolo)
+
+### Props Drilling
+  Passing data through nest component and make available data(state) to child components.
+  ![props drilling](https://github.com/arsibux/react-app-overview/blob/main/docs/img/drilling.jpg "drilling")
 
 ## React Hooks
 
@@ -216,6 +219,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
     );
   }
   ```
+
   ### useContext
 
   Make the state available globally. It accepts the context object of application and
@@ -248,6 +252,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
       );
   }
   ```
+
   ### useReducer
   useState with initial state and action. State will update accordingly action.
 
@@ -298,6 +303,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
     );
   }
   ```
+
   ### useRef
   Hook which reach out to the components value.
 
@@ -319,16 +325,20 @@ The purpose of hook to handle reactive data, any data that changes in the applic
       </form>
     </>
   );
+
   ```
 
-## React Router
+## React Ecosystem
+Javascript libraries that helps the react development.
+
+### React Router
 
 ReactJS Router is seperate JS library for navigation among the pages and views of the components in react application.
 Router keeps UI (components) sync to URLs and used to creating routing the react application.
 
 ![router](https://github.com/arsibux/react-app-overview/blob/main/docs/img/router.jpg "router")
 
-## Redux
+### React Redux
 
 Javascript Library is used to managing the states (Data) of react application. State management pattern with the help of **Events** called **actions**.
 It provides shared state management, state can be accessed across the different components.
@@ -386,3 +396,5 @@ It provides shared state management, state can be accessed across the different 
 - 2020-09-05
   - ADDED: Router
   - ADDED: Redux and state management.
+- 2020-09-16
+  - ADDED: Props Drilling
