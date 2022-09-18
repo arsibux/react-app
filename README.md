@@ -14,13 +14,13 @@ It creates **Virtual Document Object Model** in memory and all manipulation of d
   7. **React Router**: HTTP requests are routed to the code that handles them.
   8. **Redux**: State management library.
 
-## What is JSX ?
+## 1. What is JSX ?
 
 Stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
 
 ![jsx](https://github.com/arsibux/react-app/blob/main/docs/img/jsx.jpg)
 
-## React Components
+## 2. React Components
 
 React component is an independent and reusable bits of code (function) that retrun the react elements (UI).
 React element is **"DOM->Document Object Model"** object of an element.
@@ -32,12 +32,12 @@ It serves as same javascript function but work in isolation with HTML elements.
 **"The Document Object Model (DOM)"** is an application programming interface (API) for HTML and XML documents.
 It defines the logical structure of documents and the way a document is accessed and manipulated.
 
-### Types of Components
+###  Types of Components
 
   1. Function Component
   2. Classes Component
 
-### Function Component
+### 2.1 Function Component
 A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX).
 There is no render method used in functional components.
 
@@ -47,7 +47,7 @@ const train=()=> {
 }
 ```
 
-### Class Component
+### 2.2 Class Component
 A class component requires you to extend from React. Component and create a render function which returns a React element.
 This is the bread and butter of most modern web apps built in ReactJS. These components are simple classes (made up of multiple functions that add functionality to the application).
 
@@ -59,7 +59,7 @@ class Train extends React.Component {
 }
 ```
 
-### Stateful and Stateless Components
+### 2.3 Stateful and Stateless Components
 
 Stateful and stateless components have many different names.
 
@@ -101,7 +101,7 @@ const BooksList = ({books}) => {
 
 Notice the stateless component is written as a function. As cool as state is, you should always aim to make your components as simple and stateless as possible, so different components can be reused like Lego pieces, even if you don’t have immediate plans to reuse a component. The stateful ones should feel lucky to be so
 
-## React props
+## 3. React props
 
 Props stand for **"properties"**  immuteable or read only attributes(arguments) of a components.
 It stores the values of attributes of a tag `<Components name="Ali"  age="25" hieght="5.8"/>`.
@@ -122,7 +122,7 @@ function Student(props){
 }
 ```
 
-## Destructuring in React
+## 4. Destructuring in React
 
 Make available only required individual item, element, or properties of an array or object.
 We may have an array or object that we are working with, but we only need some of the items contained in these.
@@ -141,7 +141,7 @@ const [name, age, height]= student;
 
 <Component name={name} age={age} height={height} /> // using destructuring
 ```
-## State Management
+## 5. State Management
 
 **"State"**: State is data that may change in applicatiion. State is data storage to the component only.
 React manages the data(State) by following ways.
@@ -155,19 +155,19 @@ React manages the data(State) by following ways.
   7. Context (Loggedin user, Authorizations Settings, Theming, Internationalization Settings)
   8. Third Party Lib (Redux, Mobx, Recoil) remote state (reac-query, Swr, Relay, Appolo)
 
-### Props Drilling
+### 5.1 Props Drilling
 
   Passing data through nest component and make available data(state) to child components.
 
   ![props drilling](https://github.com/arsibux/react-app-overview/blob/main/docs/img/drilling.jpg "drilling")
 
-### Lifting State up
+### 5.2 Lifting State up
 
 Make available **STATE**(updated data) of child component to its ancestor components or any other component that needs the data.
 
 ![lifting up](https://github.com/arsibux/react-app-overview/blob/main/docs/img/liftingup.jpg "lifting")
 
-### Global State
+### 5.3 Global State
 
  Single centrilized shared and unrestricted globally accessible state for all application components.
  **Note**:On update state all components shares the same state.
@@ -175,17 +175,22 @@ Make available **STATE**(updated data) of child component to its ancestor compon
  ![global](https://github.com/arsibux/react-app-overview/blob/main/docs/img/global.jpg "global")
 
 
-## React Ecosystems
+## 6. React Ecosystems
 Javascript libraries that helps the react development.
 
-### React Router
+  1. React Router
+  2. Redux
+  3. Redux Persist
+  4. Redux Thunk
+
+### 6.1 React Router
 
 ReactJS Router is seperate JS library for navigation among the pages and views of the components in react application.
 Router keeps UI (components) sync to URLs and used to creating routing the react application.
 
 ![router](https://github.com/arsibux/react-app-overview/blob/main/docs/img/router.jpg "router")
 
-### React Redux
+### 6.2 React Redux
 
 Javascript Library is used to managing the states (Data) of react application. State management pattern with the help of **Events** called **actions**.
 It provides shared state management with restrictions and rules, state can be accessed across the different components.
@@ -197,10 +202,10 @@ It provides shared state management with restrictions and rules, state can be ac
 
 ![redux store](https://github.com/arsibux/react-app-overview/blob/main/docs/img/reduxstore.jpg "redux store")
 
-#### Redux Actions
-#### Redux Reducers
+#### 6.2.1 Redux Actions
+#### 6.2.1 Redux Reducers
 
-## React Hooks
+## 7. React Hooks
 
 Code(function) that is used to perform intercepting such call messages or events is called a hook.
 Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes.
@@ -213,7 +218,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   - useContext
   - useDispatch
 
-### useState
+### 7.1 useState
 
   Provides reative values(states) with updater function that can change the value(state) of variable.
   useState allows us to track state(data or value) in a function component.
@@ -236,7 +241,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   }
   ```
 
-  ### useEffect
+  ### 7.2 useEffect
 
   In this hook a function is triggered when state of variable changes. It consists of two parts.
   **"useEffect(<function>, <dependency>)"** useEffect accepts two arguments. The second argument is optional.
@@ -261,7 +266,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   }
   ```
 
-  ### useContext
+  ### 7.3 useContext
 
   Make the state available globally. It accepts the context object of application and
   add the state to context object and make available it globally.
@@ -294,7 +299,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   }
   ```
 
-  ### useReducer
+  ### 7.4 useReducer
   useState with initial state and action. State will update accordingly action.
 
   ```
@@ -345,7 +350,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   }
   ```
 
-  ### useRef
+  ### 7.5 useRef
   Hook which reach out to the components value.
 
   ```
@@ -369,7 +374,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
 
   ```
 
-## React Terms
+## 8. React Terms
 
 |  Sr  |     Title     | Description                                           |
 | :-:  | :-----------: | --------------------------------------------------- |
@@ -384,7 +389,7 @@ The purpose of hook to handle reactive data, any data that changes in the applic
 |  9   | Event Handler | is callback function run asynchronously once at certain event.
 |  10  | Callback fn | function runs in sequence as first finished.
 
-## Toolkit
+## 9. Toolkit
 
   - [Chrome dev tools for react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) development tool to inspect react components.
   - [Firefox dev tools for react](https://addons.mozilla.org/en-GB/firefox/addon/react-devtools/) development tool to inspect react components.
@@ -399,13 +404,13 @@ The purpose of hook to handle reactive data, any data that changes in the applic
   - [Redux DevTools for chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
   - [Redux DevTools for firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
 
-## Resources
+## 10. Resources
 
   1. [React](https://reactjs.org/docs/getting-started.html)
   2. [JSX in React](https://www.w3schools.com/react/react_jsx.asp).
   3. [Stateful and Stateless](https://programmingwithmosh.com/javascript/stateful-stateless-components-react/)
 
-## Changelog
+## 11. Changelog
 
 - 2020-08-29
   - ADDED: Installation of react-application via npx.
